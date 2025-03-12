@@ -77,7 +77,8 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     img {
-      width: 4vw;
+      width: 4.5vw;
+      padding: 0 12px;
     }
   }
 }
@@ -140,13 +141,16 @@ nav {
   p {
     padding: 2vw 0;
   }
-  button {
+  div {
     background-color: var(--color-secundari);
+    text-align: center;
+    padding: 13px;
     width: 100px;
     height: 60px;
   }
   a {
     text-decoration: none;
+    
     color: var(--color-clar);
   }
 }
